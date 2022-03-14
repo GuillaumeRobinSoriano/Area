@@ -1,0 +1,426 @@
+{
+  "Actions": [
+    {
+      "name": "Weather",
+      "color": {
+        "r": "24",
+        "g": "123",
+        "b": "205",
+        "o": "1"
+      },
+      "description": "Weather service, get the weather for a location",
+      "assets": "https://www.kindpng.com/picc/m/178-1780574_weather-forecast-icon-png-transparent-png.png",
+      "req": [{ "City": "String" }, { "Temperature": "int" }]
+    },
+    {
+      "name": "Currency",
+      "color": {
+        "r": "255",
+        "g": "255",
+        "b": "255",
+        "o": "1"
+      },
+      "description": "Currency alert you when the currency is up to your desired value",
+      "assets": "https://upload.wikimedia.org/wikipedia/commons/5/57/Binance_Logo.png",
+      "req": [{ "Currency": "String" }, { "Price": "int" }]
+    },
+    {
+      "name": "Covid",
+      "color": {
+        "r": "75",
+        "g": "139",
+        "b": "59",
+        "o": "1"
+      },
+      "description": "Covid alert you when the covid is up to your desired value in the city you want",
+      "assets": "https://mairiechambaronsurmorge.fr/sitemcsm/wp-content/uploads/2020/03/modele-logo-rouge-covid-19_23-2148501246.jpg",
+      "req": [{ "Country": "String" }, { "Nb of case": "int" }]
+    },
+    {
+      "name": "Day or night",
+      "color": {
+        "r": "57",
+        "g": "57",
+        "b": "72",
+        "o": "1"
+      },
+      "description": "Day or night alert you it's day or night at you location",
+      "assets": "https://cdn3.vectorstock.com/i/1000x1000/96/02/logo-design-day-and-night-vector-26559602.jpg",
+      "req": [{ "Latitude": "String" }, { "Longitude": "String" }, { "Day or Night": "bool" }]
+    },
+    {
+      "name": "Youtube views count",
+      "color": {
+        "r": "255",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description": "youtube alert you when the view count of an account is up to your desired value",
+      "assets": "https://www.creads.com/wp-content/uploads/2021/05/youtube.jpg",
+      "req": [{ "Account ID": "String" }, { "Views": "int" }]
+    },
+    {
+      "name": "Youtube subscribers count",
+      "color": {
+        "r": "255",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description": "youtube alert you when the subscriber count of an account is up to your desired value",
+      "assets": "https://www.creads.com/wp-content/uploads/2021/05/youtube.jpg",
+      "req": [{ "Account ID": "String" }, { "Subscribers": "int" }]
+    },
+    {
+      "name": "Youtube videos count",
+      "color": {
+        "r": "255",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description": "Youtube alert you when the number of video from an account is up to your desired value",
+      "assets": "https://www.creads.com/wp-content/uploads/2021/05/youtube.jpg",
+      "req": [{ "Account ID": "String" }, { "Video count": "int" }]
+    },
+    {
+      "name": "Youtube video views count",
+      "color": {
+        "r": "255",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description": "Youtube alert you when the view count of a video is up to your desired value",
+      "assets": "https://www.creads.com/wp-content/uploads/2021/05/youtube.jpg",
+      "req": [{ "Video ID": "String" }, { "Views": "int" }]
+    },
+    {
+      "name": "Youtube likes count",
+      "color": {
+        "r": "255",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description": "Youtube alert you when the like count of a video is up to your desired value",
+      "assets": "https://www.creads.com/wp-content/uploads/2021/05/youtube.jpg",
+      "req": [{ "Video ID": "String" }, { "Likes": "int" }]
+    },
+    {
+      "name": "Youtube comment count",
+      "color": {
+        "r": "255",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description": "Youtube alert you when the comment count of a video is up to your desired value",
+      "assets": "https://www.creads.com/wp-content/uploads/2021/05/youtube.jpg",
+      "req": [{ "Video ID": "String" }, { "Comments": "int" }]
+    },
+    {
+      "name": "Number champ Valorant",
+      "color": {
+        "r": "0",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description": "Number of champ Valorant alert you when the number of champ Valorant is up to your desired value",
+      "assets": "https://seeklogo.com/images/V/valorant-logo-FAB2CA0E55-seeklogo.com.png",
+      "req": [{ "Saison": "String" }, { "Nb of champ": "int" }]
+    },
+    {
+      "name": "Number champ Overwatch",
+      "color": {
+        "r": "0",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description": "Number of champ Overwatch alert you when the number of champ Valorant is up to your desired value",
+      "assets": "https://upload.wikimedia.org/wikipedia/fr/d/d9/Overwatch_Logo.png",
+      "req": [{ "Saison": "String" }, { "Nb of champ": "int" }]
+    },
+    {
+      "name": "Number champ Overwatch",
+      "color": {
+        "r": "0",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description": "Number of champ Overwatch alert you when the number of champ Valorant is up to your desired value",
+      "assets": "https://upload.wikimedia.org/wikipedia/fr/d/d9/Overwatch_Logo.png",
+      "req": [{ "Saison": "String" }, { "Nb of champ": "int" }]
+    },
+    {
+      "name": "Number champ Lol",
+      "color": {
+        "r": "0",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description": "Number of champ Lol alert you when the number of champ Valorant is up to your desired value",
+      "assets": "https://www.leagueoflegends.com/static/logo-1200-589b3ef693ce8a750fa4b4704f1e61f2.png",
+      "req": [{ "Saison": "String" }, { "Nb of champ": "int" }]
+    },
+    {
+      "name": "Number items Lol",
+      "color": {
+        "r": "0",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description": "Number of Items Lol alert you when the number of champ Valorant is up to your desired value",
+      "assets": "https://www.leagueoflegends.com/static/logo-1200-589b3ef693ce8a750fa4b4704f1e61f2.png",
+      "req": [{ "Saison": "String" }, { "Nb of Items": "int" }]
+    },
+    {
+      "name": "Number spell Lol",
+      "color": {
+        "r": "0",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description": "Number of spell Lol alert you when the number of champ Valorant is up to your desired value",
+      "assets": "https://www.leagueoflegends.com/static/logo-1200-589b3ef693ce8a750fa4b4704f1e61f2.png",
+      "req": [{ "Saison": "String" }, { "Nb of spells": "int" }]
+    },
+    {
+      "name": "Number Runes Lol",
+      "color": {
+        "r": "0",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description": "Number of Runes Lol alert you when the number of champ Valorant is up to your desired value",
+      "assets": "https://www.leagueoflegends.com/static/logo-1200-589b3ef693ce8a750fa4b4704f1e61f2.png",
+      "req": [{ "Saison": "String" }, { "Nb of Runes": "int" }]
+    },
+    {
+      "name": "Number masteries Lol",
+      "color": {
+        "r": "0",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description": "Number of masteries Lol alert you when the number of champ Valorant is up to your desired value",
+      "assets": "https://www.leagueoflegends.com/static/logo-1200-589b3ef693ce8a750fa4b4704f1e61f2.png",
+      "req": [{ "Saison": "String" }, { "Nb of masteries": "int" }]
+    },
+    {
+      "name": "Number champ Dota2",
+      "color": {
+        "r": "0",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description": "Number of champ Dota2 alert you when the number of champ Valorant is up to your desired value",
+      "assets": "https://logowik.com/content/uploads/images/dota29508.jpg",
+      "req": [{ "Saison": "String" }, { "Nb of champ": "int" }]
+    },
+    {
+      "name": "Number items Dota2",
+      "color": {
+        "r": "0",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description": "Number of items Dota2 alert you when the number of champ Valorant is up to your desired value",
+      "assets": "https://logowik.com/content/uploads/images/dota29508.jpg",
+      "req": [{ "Saison": "String" }, { "Nb of items": "int" }]
+    },
+    {
+      "name": "Number abilities Dota2",
+      "color": {
+        "r": "0",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description": "Number of abilities Dota2 alert you when the number of champ Valorant is up to your desired value",
+      "assets": "https://logowik.com/content/uploads/images/dota29508.jpg",
+      "req": [{ "Saison": "String" }, { "Nb of abilities": "int" }]
+    },
+    {
+      "name": "Number weapons CSGO",
+      "color": {
+        "r": "0",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description": "Number of weapons CSGO alert you when the number of champ Valorant is up to your desired value",
+      "assets": "https://www.armateam.org/wp-content/uploads/2019/10/counter-strike-global-offensive-cs-go-logo.png",
+      "req": [{ "Saison": "String" }, { "Nb of abilities": "int" }]
+    },
+    {
+      "name": "public Repos Github",
+      "color": {
+        "r": "255",
+        "g": "255",
+        "b": "255",
+        "o": "1"
+      },
+      "description": "check if the number of public repos on Github is up to your desired value",
+      "assets": "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+      "req": [{ "User": "String" }, { "Nb of Repo": "int" }]
+    },
+    {
+      "name": "followers Github",
+      "color": {
+        "r": "255",
+        "g": "255",
+        "b": "255",
+        "o": "1"
+      },
+      "description": "check if the number of followers on Github is up to your desired value",
+      "assets": "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+      "req": [{ "User": "String" }, { "Nb of Repo": "int" }]
+    },
+    {
+      "name": "following Github",
+      "color": {
+        "r": "255",
+        "g": "255",
+        "b": "255",
+        "o": "1"
+      },
+      "description": "check if the number of following on Github is up to your desired value",
+      "assets": "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+      "req": [{ "User": "String" }, { "Nb of Repo": "int" }]
+    },
+    {
+      "name": "nb Branches in project Github",
+      "color": {
+        "r": "255",
+        "g": "255",
+        "b": "255",
+        "o": "1"
+      },
+      "description": "check if the nb Branches in project Github is up to your desired value",
+      "assets": "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+      "req": [{ "User": "String" }, { "Repo": "String" }, { "Nb of Repo": "int" }]
+    },
+    {
+      "name": "student Credits",
+      "color": {
+        "r": "0",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description": "check if the student credits is up to your desired value",
+      "assets": "https://newsroom.ionis-group.com/wp-content/uploads/2021/10/LOGO-EPITECH-BASELINE-QUADRI-2021.png",
+      "req": [{ "Student email": "String" }, { "Nb of credits": "int" }]
+    },
+    {
+      "name": "student Active",
+      "color": {
+        "r": "0",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description": "check if the student Active is up to your desired value",
+      "assets": "https://newsroom.ionis-group.com/wp-content/uploads/2021/10/LOGO-EPITECH-BASELINE-QUADRI-2021.png",
+      "req": [{ "Student email": "String" }, { "Active time": "int" }]
+    },
+    {
+      "name": "student Semesters",
+      "color": {
+        "r": "0",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description": "check if the student Semesters is up to your desired value",
+      "assets": "https://newsroom.ionis-group.com/wp-content/uploads/2021/10/LOGO-EPITECH-BASELINE-QUADRI-2021.png",
+      "req": [{ "Student email": "String" }, { "semester": "int" }]
+    },
+    {
+      "name": "student GPA",
+      "color": {
+        "r": "0",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description": "check if the student GPA is up to your desired value",
+      "assets": "https://newsroom.ionis-group.com/wp-content/uploads/2021/10/LOGO-EPITECH-BASELINE-QUADRI-2021.png",
+      "req": [{ "Student email": "String" }, { "Nb of GPA": "int" }]
+    },
+    {
+      "name": "lol sumoners lvl",
+      "color": {
+        "r": "0",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description": "check if the lol sumoners lvl is up to your desired value",
+      "assets": "https://logo-marque.com/wp-content/uploads/2020/11/League-of-Legends-Embleme.png",
+      "req": [{ "summoners name": "String" }, { "lvl": "int" }]
+    },
+    {
+      "name": "tft sumoners lvl",
+      "color": {
+        "r": "0",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description": "check if the tft sumoners lvl is up to your desired value",
+      "assets": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Teamfight_Tactics_logo.png",
+      "req": [{ "summoners name": "String" }, { "lvl": "int" }]
+    }
+  ],
+  "Reactions": [
+    {
+      "name":"Gmail",
+      "color":{
+        "r": "255",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description":"send a mail to your gmail account",
+      "assets": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png",
+      "req": [{"Email": "String"}]
+    },
+    {
+      "name":"Notification",
+      "color":{
+        "r": "0",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description":"send you a notification",
+      "assets": "https://cdn-icons-png.flaticon.com/512/54/54810.png",
+      "req": [{"Email": "String"}]
+    },
+    {
+      "name":"Door",
+      "color":{
+        "r": "0",
+        "g": "0",
+        "b": "0",
+        "o": "1"
+      },
+      "description":"Open the door",
+      "assets": "https://logopond.com/logos/38595ee42d71286c793d1f1a3a20e8cb.png",
+      "req": [{"Epitech Oauth": "String"}]
+    }
+  ]
+}
